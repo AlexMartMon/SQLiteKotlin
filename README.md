@@ -53,5 +53,7 @@ y si es -1 es un código de error, suele ser porque la PK introducida esta null 
 
               bd.close()
               
- Es importante al final cerrar la base de datos del modo lectura y escritura pues podríamos dañar el telefono, pues en caso de que mientras esta abierta nuestro telefono recibe una llamada por ejemplo o alguna app externa de mayor prioridad necesite de ser usada en ese momento nuestra app pasara a la pila de app o en caso de no tener ram en el dispositivo se cierre forzadamente generando datos corruptos en nuestra base de datos
+ Es importante al final cerrar la base de datos del modo lectura y escritura pues podríamos dañar el telefono, pues en caso de que mientras esta abierta nuestro telefono recibe una llamada por ejemplo o alguna app externa de mayor prioridad necesite de ser usada en ese momento nuestra app pasara a la pila de app o en caso de no tener ram en el dispositivo se cierre forzadamente generando datos corruptos en nuestra base de datos.
+ 
+ Los eventos de borrar, modificar y consultar son bastante identicos, una vez entendido el alta, pueden entenderse los otros métodos desde el código
 </p>
