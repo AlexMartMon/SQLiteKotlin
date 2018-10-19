@@ -38,6 +38,7 @@ En el código de la activity, creamos una variable del administrador a la cual l
  para dar de alta un registro en la base de datos, en el setOnclickListener de mi boton crear,
   hago uso de una variable bd que abrira la base de datos en modo lectura y escritura
   y una variable de tipo contentValues donde meteremos pares de valores, la key de todos pares debe coincidir con el nombre de los campos de la tabla.
+  
             val bd = admin!!.writableDatabase
             val registro = ContentValues()
             registro.put("codigo", codigoAlumno.getText().toString())
